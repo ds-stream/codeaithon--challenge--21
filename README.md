@@ -1,8 +1,8 @@
-# Task X - Project Repository
+# Task 21 - Project Repository
 
 This repository provides the structure necessary to approve your assignment. Please refer to the contents of this file for all necessary information. 
 
-Link to task description on the: [dedicated page](https://eventornado.com/)
+Link to task description: [Instruction Task 21: Checking prime number](docs/instructions.md)
 
 # Prerequisites
 
@@ -20,7 +20,7 @@ If Python is not installed, download and install it from the official Python web
 ## Cloning the Repository
 To get started with the task, you first need to clone the repository to your local machine. Use the following command:
 ```bash
-git clone https://github.com/procter-gamble/codeaithon-challenge-x.git
+git clone https://github.com/procter-gamble/codeaithon-challenge-21.git
 ```
 
 ### Repository Structure
