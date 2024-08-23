@@ -3,8 +3,8 @@ import importlib.util
 import pytest
 
 
-def test_submission_files_exist(coder):
-    base_path = f"submissions/coder_{coder}"
+def test_submission_files_exist(developer):
+    base_path = f"submissions/developer_{developer}"
     folders = ["tests", "results"]
 
     for folder in folders:

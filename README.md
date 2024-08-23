@@ -49,7 +49,7 @@ The repository is structured as follows to maintain an organized and standardize
 
 ## Setup Script
 
-Before you start working on the project, run the setup script to prepare your development environment. This script organizes the necessary files into the appropriate directories based on your coder ID.
+Before you start working on the project, run the setup script to prepare your development environment. This script organizes the necessary files into the appropriate directories based on your developer ID.
 
 ### Preparing the Setup Script
 
@@ -64,10 +64,10 @@ chmod +x src/bash/./create_submission_folder.sh
 From the main folder of the project, execute the setup script by running:
 
 ```bash
-./src/bash/create_submission_folder.sh <your_coder_id>
+./src/bash/create_submission_folder.sh <your_developer_id>
 ```
 
-Replace `<your_coder_id>` with your unique coder ID. This script creates a new folder within the `submissions` directory where you should place your solution to the task.
+Replace `<your_developer_id>` with your unique developer ID. This script creates a new folder within the `submissions` directory where you should place your solution to the task.
 
 ### Post-Script Structure
 
@@ -75,7 +75,7 @@ After running the setup script, the following structure will be created in the `
 
 ```
 .
-├── 📂 coder-<your_coder_id>             <- This folder is your designated workspace.
+├── 📂 developer-<your_developer_id>             <- This folder is your designated workspace.
 │   ├── 📂 results                       <- Place your solution to the task in this folder.
 │   ├── 📂 tests                         <- Write tests for the code you have created in this folder.
 │   ├── README.md                        <- This file contains instructions on how to run the code you have created.
@@ -133,7 +133,7 @@ Ensure you are in your project directory and your Git workspace is clean. Create
 git checkout -b <branch_name>
 ```
 
-Replace <branch_name> with a coder-x, where x is your assigned participant number.
+Replace <branch_name> with a developer-x, where x is your assigned participant number.
 
 ## Making Changes and Committing
 

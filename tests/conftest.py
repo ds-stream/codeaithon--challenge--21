@@ -2,12 +2,12 @@ import pytest
 
 
 def pytest_addoption(parser):
-    parser.addoption("--coder", action="store", default="default_value")
+    parser.addoption("--developer", action="store", default="default_value")
 
 
 @pytest.fixture
-def coder(request):
-    return request.config.getoption("--coder")
+def developer(request):
+    return request.config.getoption("--developer")
 
 
-# run pytest --coder=<number>
+# run pytest --developer=<number>
